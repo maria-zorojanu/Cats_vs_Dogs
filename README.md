@@ -1,17 +1,17 @@
 JAVA:
 
-package com.example.connect3;
+    package com.example.connect3;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.GridLayout;
-import android.widget.ImageView;
-import android.widget.TextView;
+    import android.support.v7.app.AppCompatActivity;
+    import android.os.Bundle;
+    import android.util.Log;
+    import android.view.View;
+    import android.widget.Button;
+    import android.widget.GridLayout;
+    import android.widget.ImageView;
+    import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+    public class MainActivity extends AppCompatActivity {
 
     // 0 - cat; 1 -dog; 2 - empty
     int activePlayer = 0;
@@ -124,12 +124,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-}
+    }
 
 XML:
 
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -288,4 +288,4 @@ XML:
             android:onClick="dropin" />
     </android.support.v7.widget.GridLayout>
 
-</android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
